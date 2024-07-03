@@ -2,6 +2,7 @@ import { useState } from "react";
 import initialFriends from "./utils/AppData";
 
 function Button({ children, onClick }) {
+  //component composition
   return (
     <button className="button" onClick={onClick}>
       {children}
